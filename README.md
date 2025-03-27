@@ -13,7 +13,7 @@ mamba activate RNA-seq
 mamba install -y hisat2 stringtie diamond samtools fastqc fastp bedtools bowtie2
 ```
 ----
-![A pipeline of bioinformatic analysis to identify the mobile mRNAs.](image.png)
+![A pipeline of bioinformatic analysis to identify the mobile mRNAs.](./images/image.png)
 **A pipeline of bioinformatic analysis to identify the mobile mRNAs.**
 
 ----
