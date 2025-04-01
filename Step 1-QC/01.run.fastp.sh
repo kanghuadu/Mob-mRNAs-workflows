@@ -8,6 +8,6 @@ do
         fastp -i ${rawdata}/${i}.clean.1.fq.gz -o ${cleandata}/${i}_1.clean.fq.gz -I ${rawdata}/${i}.clean.2.fq.gz -O ${cleandata}/${i}_2.clean.fq.gz \
         -q 20 -z 4 -w 20 -h ${cleandata}/html/${i}.html
         # fastqc evaluates reads quality
-        fastqc -q -t 30 -o ${fastQC} ${cleandata}${i}_*.clean.fq.gz 
+        fastqc -q -t 30 -o ${fastQC} ${cleandata}/${i}_*.clean.fq.gz 
  
 done
